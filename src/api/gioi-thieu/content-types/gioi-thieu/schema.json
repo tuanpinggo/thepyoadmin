@@ -1,0 +1,102 @@
+{
+  "kind": "singleType",
+  "collectionName": "aboutus",
+  "info": {
+    "singularName": "gioi-thieu",
+    "pluralName": "aboutus",
+    "displayName": "Giới thiệu",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "sapo": {
+      "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "title_vision": {
+      "type": "string"
+    },
+    "content_vision": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "thumbnail_vision": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title_mission": {
+      "type": "string"
+    },
+    "content_mission": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "thumbnail_mission": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title_value": {
+      "type": "string"
+    },
+    "content_value": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "standard"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "thumbnail_value": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title_nangluc": {
+      "type": "string"
+    },
+    "nangluc": {
+      "displayName": "nangluc",
+      "type": "component",
+      "repeatable": true,
+      "component": "aboutus.nangluc"
+    }
+  }
+}

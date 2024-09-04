@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_service_steps",
+  "info": {
+    "displayName": "step"
+  },
+  "options": {},
+  "attributes": {
+    "content": {
+      "type": "text"
+    }
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "kind": "singleType",
+  "collectionName": "configs",
+  "info": {
+    "singularName": "config",
+    "pluralName": "configs",
+    "displayName": "Cấu hình website",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "company": {
+      "type": "string",
+      "required": true
+    },
+    "license": {
+      "type": "string"
+    },
+    "taxcode": {
+      "type": "string"
+    },
+    "taxdate": {
+      "type": "string"
+    },
+    "taxcom": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    },
+    "hotline": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "website": {
+      "type": "string"
+    },
+    "facebook": {
+      "type": "string"
+    },
+    "youtube": {
+      "type": "string"
+    },
+    "instagram": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "zalo": {
+      "type": "string"
+    },
+    "copyright": {
+      "type": "string"
+    },
+    "description_contact": {
+      "type": "text"
+    }
+  }
+}

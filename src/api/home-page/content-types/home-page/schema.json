@@ -1,0 +1,127 @@
+{
+  "kind": "singleType",
+  "collectionName": "home_pages",
+  "info": {
+    "singularName": "home-page",
+    "pluralName": "home-pages",
+    "displayName": "Cấu hình trang chủ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "about_title": {
+      "type": "string"
+    },
+    "service_title": {
+      "type": "string"
+    },
+    "service_button_label": {
+      "type": "string"
+    },
+    "service_button_link": {
+      "type": "string"
+    },
+    "call_to_action_sub_title": {
+      "type": "string"
+    },
+    "call_to_action_title": {
+      "type": "string"
+    },
+    "call_to_action_hotline": {
+      "type": "string"
+    },
+    "call_to_action_thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "about_gallary": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "team_title": {
+      "type": "string"
+    },
+    "why_choose_us_title": {
+      "type": "string"
+    },
+    "why_choose_us": {
+      "displayName": "Homepage",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.homepage"
+    },
+    "trip_title": {
+      "type": "string"
+    },
+    "news_title": {
+      "type": "string"
+    },
+    "about_description_ck": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "team_description_ck": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "trip_description_ck": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "service_description_ck": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "why_choose_us_description_ck": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "light"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "bac_sies": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::doctor.doctor"
+    }
+  }
+}

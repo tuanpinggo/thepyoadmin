@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_aboutus_nanglucs",
+  "info": {
+    "displayName": "nangluc"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "number": {
+      "type": "integer"
+    }
+  }
+}

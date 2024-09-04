@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tuyendungs",
+  "info": {
+    "singularName": "tuyendung",
+    "pluralName": "tuyendungs",
+    "displayName": "tuyendung",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "hinh_thuc": {
+      "type": "string"
+    },
+    "dia_diem": {
+      "type": "string"
+    },
+    "luong": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "title"
+    },
+    "mo_ta": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "yeu_cau": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "quyen_loi": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "lien_he": {
+      "type": "customField",
+      "options": {
+        "output": "HTML",
+        "preset": "rich"
+      },
+      "customField": "plugin::ckeditor.CKEditor"
+    },
+    "han_nop": {
+      "type": "string"
+    }
+  }
+}

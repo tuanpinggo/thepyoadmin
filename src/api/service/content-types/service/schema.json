@@ -1,0 +1,86 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Dịch vụ thẩm mỹ",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title1": {
+      "type": "string"
+    },
+    "title_uu_diem": {
+      "type": "string"
+    },
+    "description_uu_diem": {
+      "type": "text"
+    },
+    "uudiem": {
+      "displayName": "service",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service"
+    },
+    "title_co_che": {
+      "type": "string"
+    },
+    "description_co_che": {
+      "type": "text"
+    },
+    "coche": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service"
+    },
+    "title_quy_trinh": {
+      "type": "string"
+    },
+    "step": {
+      "displayName": "step",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.step"
+    },
+    "title_faq": {
+      "type": "string"
+    },
+    "faq": {
+      "displayName": "faq",
+      "type": "component",
+      "repeatable": true,
+      "component": "service.faq"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "seo.seo"
+    },
+    "slu": {
+      "type": "uid",
+      "targetField": "title"
+    }
+  }
+}

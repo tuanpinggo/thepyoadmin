@@ -1,0 +1,26 @@
+{
+  "kind": "singleType",
+  "collectionName": "googlesheets",
+  "info": {
+    "singularName": "googlesheet",
+    "pluralName": "googlesheets",
+    "displayName": "googlesheet"
+  },
+  "options": {
+    "draftAndPublish": false,
+    "comment": ""
+  },
+  "pluginOptions": {
+    "content-manager": {
+      "visible": true
+    }
+  },
+  "attributes": {
+    "link_gsheet": {
+      "type": "string"
+    },
+    "sheet_name": {
+      "type": "string"
+    }
+  }
+}

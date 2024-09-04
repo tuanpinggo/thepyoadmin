@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bug_logs",
+  "info": {
+    "singularName": "bug-log",
+    "pluralName": "bug-logs",
+    "displayName": "bug_log"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "detail": {
+      "type": "text"
+    }
+  }
+}
